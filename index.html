@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catch the Falling Object</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Start message -->
+    <div id="start-message">
+        <h2>How to Play:</h2>
+        <p>Catch the falling fruits using the basket! Use the left and right arrow keys to move the basket.</p>
+        <p>Score points for every fruit you catch, but if you miss too many, the game will end.</p>
+        <p>Reach 50 points to win!</p>
+        <button id="start-btn">Start Game</button>
+    </div>
+
+    <!-- Game Container -->
+    <div id="game-container" class="game-container">
+        <div id="catchit" class="catchit">
+            <p id="score">Score: 0</p>
+        </div>
+        <div id="falling-object" class="falling-object"></div>
+        <div id="basket" style="background-image: url('basket1.png');"></div>
+        <div id="game-over-message" style="display:none">
+            <p>You lost! Missed too many fruits.</p>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+        <div id="game-win-message" style="display:none">
+            <p>You Win! You reached 50 fruits!</p>
+            <button onclick="restartGame()">Play Again</button>
+        </div>
+        <button id="restart-btn" style="display: none;">Restart Game</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
