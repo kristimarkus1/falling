@@ -2,7 +2,9 @@
 
 ## Description
 
-"Catch the Falling Object" is a simple game where you control a basket that moves left and right to catch falling objects. You earn points when you catch the falling objects, but if you miss too many, the game is over.
+Catch it is a simple game where you control a basket that moves left and right to catch falling objects. You earn points when you catch the falling objects, but if you miss too many, the game is over.
+
+Hosted on Vercel: https://falling-bice.vercel.app/
 
 ## Features
 - Use arrow keys to move the basket.
